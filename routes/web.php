@@ -42,6 +42,6 @@ Route::get('/single-blog', function () {
     return view('single-blog');
 });
 
-/**Route::get('/', function () {
-    return view('welcome');
-});*/
+Route::get('/', function () {
+    return redirect('home');
+});
